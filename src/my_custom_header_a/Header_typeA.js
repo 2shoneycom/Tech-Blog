@@ -19,7 +19,7 @@ function Header_typeA() {
     },
   };
 
-  const [navItemList, setNavItemList] = useState(recievedNavData.itemList);
+  const [navItemList, _setNavItemList] = useState(recievedNavData.itemList);
   /* [Hamburger Menu] */
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
